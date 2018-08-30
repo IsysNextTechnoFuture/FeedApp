@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:id="@+id/tv_category_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="Hello"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+    <View
+        android:layout_width="110dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/view_category"
+        android:visibility="gone"
+        android:background="@color/white" />
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="4"
+        android:background="@color/black_transparent"
+        android:layout_margin="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_retrospective"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retrospective"
+                android:textSize="16sp"/>
+            &lt;!&ndash;
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="4dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:id="@+id/view_retrospective"
+                            android:background="@color/colorPrimary" />&ndash;&gt;
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_ethnic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ethnic"
+                android:textSize="16sp"/>
+
+            &lt;!&ndash;<View
+                android:layout_width="wrap_content"
+                android:id="@+id/view_ethnic"
+                android:layout_height="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/colorPrimary" />&ndash;&gt;
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_fashionista"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fashionista"
+                android:textSize="16sp"/>
+
+            &lt;!&ndash;      <View
+                      android:layout_width="wrap_content"
+                      android:id="@+id/view_fashionista"
+                      android:layout_height="4dp"
+                      android:layout_marginRight="15dp"
+                      android:layout_marginLeft="15dp"
+                      android:background="@color/colorPrimary" />&ndash;&gt;
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_sexy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexy"
+                android:textSize="16sp"/>
+
+            &lt;!&ndash; <View
+                 android:layout_width="wrap_content"
+                 android:id="@+id/view_sexy"
+                 android:layout_height="4dp"
+                 android:layout_marginRight="15dp"
+                 android:layout_marginLeft="15dp"
+                 android:background="@color/colorPrimary" />&ndash;&gt;
+        </LinearLayout>
+    </LinearLayout>-->
+
+</LinearLayout>

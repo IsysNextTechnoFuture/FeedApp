@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FeedApp</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="network_error">Network Error</string>
+    <string name="ok">Ok</string>
+    <string name="whoops">Whoops</string>
+    <string name="server_error">Server Error</string>
+    <string name="wallapaper_json_url">https://raw.githubusercontent.com/uidhinc/DishaPatani/master/wallpapers.json</string>
+
+
+</resources>

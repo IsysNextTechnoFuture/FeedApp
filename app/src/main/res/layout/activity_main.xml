@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar app:title=""
+        android:title=""
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_splash"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/toolbar_title"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_below="@+id/toolbar_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <SlidingDrawer
+        android:id="@+id/simpleSlidingDrawer"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:rotation="180">
+
+        <!-- Button for the handle of SlidingDrawer -->
+        <Button
+            android:id="@id/handle"
+            android:layout_width="35dp"
+            android:layout_height="80dp"
+            android:padding="0dp"
+            android:background="@drawable/side_tray_update"
+            android:rotation="180"
+            android:textColor="#fff"/>
+        <!-- layout for the content of the SLidingDrawer -->
+        <LinearLayout
+            android:id="@id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:rotation="180">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear_layout_tray"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/border_tray_layout">
+
+                <!-- DEFINE ALL YOUR CONTENT,WIDGETS HERE WHICH YOU WANT TO ADD IN SLIDING DRAWER LAYOUT. -->
+                <ListView
+                    android:id="@+id/tray_list_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:divider="@null"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:dividerHeight="0dp"></ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </SlidingDrawer>
+
+    </RelativeLayout>

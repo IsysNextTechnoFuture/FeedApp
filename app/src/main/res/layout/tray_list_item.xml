@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+ <!--   <android.support.v7.widget.CardView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:elevation="2dp"
+        android:id="@+id/img_card_view"
+        android:paddingLeft="2dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="right"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1">-->
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drawr_list_icon"
+            android:padding="2dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_fb"/>
+
+
+</android.support.constraint.ConstraintLayout>
