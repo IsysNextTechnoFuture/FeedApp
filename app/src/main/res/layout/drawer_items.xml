@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <include
+        android:id="@+id/nav_header"
+        layout="@layout/nav_header_main"/>
+
+    <ListView
+        android:id="@+id/drawer_list_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:divider="@null"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:dividerHeight="0dp"></ListView>
+
+   <!-- <LinearLayout
+        android:id="@+id/dashboard_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/dashboard_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            app:srcCompat="@drawable/ic_heart_save" />
+
+
+        <TextView
+            android:id="@+id/dashboard_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:padding="5dp"
+            android:text="Dashboard"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+    </LinearLayout>-->
+
+</LinearLayout>

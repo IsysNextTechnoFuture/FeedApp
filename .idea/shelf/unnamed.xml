@@ -1,0 +1,64 @@
+<changelist name="unnamed" date="1535731880859" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/shelved.patch" />
+  <option name="DESCRIPTION" value="" />
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-hdpi/ic_about.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-hdpi/ic_about.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_about.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-hdpi/ic_insta.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-hdpi/ic_insta.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_insta.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-hdpi/ic_tw.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-hdpi/ic_tw.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_tw.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-hdpi/ic_wall.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-hdpi/ic_wall.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_wall.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-mdpi/ic_about.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-mdpi/ic_about.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_about1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-mdpi/ic_insta.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-mdpi/ic_insta.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_insta1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-mdpi/ic_tw.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-mdpi/ic_tw.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_tw1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-mdpi/ic_wall.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-mdpi/ic_wall.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_wall1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-xhdpi/ic_about.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-xhdpi/ic_about.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_about2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-xhdpi/ic_insta.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-xhdpi/ic_insta.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_insta2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-xhdpi/ic_tw.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-xhdpi/ic_tw.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_tw2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="app/src/main/res/mipmap-xhdpi/ic_wall.png" />
+    <option name="AFTER_PATH" value="app/src/main/res/mipmap-xhdpi/ic_wall.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/unnamed/ic_wall2.png" />
+  </binary>
+</changelist>
